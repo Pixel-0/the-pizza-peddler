@@ -1,0 +1,19 @@
+.container {
+  overflow-x: hidden;
+}
+
+.top-container {
+  background-image: url("https://wallpapercave.com/wp/wp2315703.jpg");
+  background-position: center;
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  text-align: center;
+  color: #000;
+}
+
+.top {
+  border: 2px solid #fff;
+  background-color: #fff;
+}
