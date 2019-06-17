@@ -1,9 +1,9 @@
 $(document).ready(function() {
-
-
+$("#order-details").hide();
+$("#deliver").hide();
 
   // Business Logic
-  var totalPriceArray = []; //Only global variable in code
+  var totalPriceArray = [];
   function Order (size, crust, toppings) {
     this.size = size;
     this.crust = crust;
@@ -61,6 +61,7 @@ $(document).ready(function() {
   };
 
 
+
   $("form#custom-pizza").submit(function(event) {
       event.preventDefault();
       var size = $("select#size").val();
@@ -70,21 +71,26 @@ $(document).ready(function() {
       var newPizzaOrder = new Order(size, crust, toppings);
       newPizzaOrder.pizzaCost();
       totalPriceArray.push(newPizzaOrder.pizzaPrice);
-      $("#pizza-details-dropdown").show();
+      // $("#pizza-details").hide();
       $("#final-cost").text(newPizzaOrder.finalCost());
       $("#pizza-details").append("<ul><li>" + pizzaDetails + "</li></ul>");
       // $("#size, #crust, #toppings,").val("");
     });
-    $("#checkout-btn").click(function() {
-      $("#pizza-details").toggle();
+
+    $("#submit-pizza").click(function(){
+      $("#deliver").toggle();
     });
 
+    $("#checkout-btn").click(function() {
+      $("#order-details").toggle();
+    });
 
     $("form#address-form").submit(function(event) {
+      $(".address-form").toggle();
       event.preventDefault();
       var address = $("input#location").val();
       var newAddress = new Address(address);
-      $(".deliver").hide();
-      $("#delivery-option").text("Deliver to: " + newAddress.deliveryAddress);
+
+      $("#delivery-option").text("Make delivery to: " + newAddress.deliveryAddress);
     });
 });

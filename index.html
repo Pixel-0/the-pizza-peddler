@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <title>The Pizza Peddler</title>
   <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Kaushan+Script|Shadows+Into+Light+Two&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
   <link rel="shortcut icon" href="images/favicon.png">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/bootstrap.css">
@@ -19,13 +20,13 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="#home">Home</a>
+            <a class="nav-link" href="#jumbotron">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#products">Pizza & Pricing</a>
+            <a class="nav-link" href="#custom-pizza">Pizza & Pricing</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#order">Order</a>
+            <a class="nav-link" href="#price-content">Order</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#contact">Contact</a>
@@ -34,7 +35,7 @@
       </div>
     </nav>
 
-    <div class="jumbotron">
+    <div id="jumbotron" class="jumbotron">
       <h1>The Pizza Peddler</h1><br><br>
       <p>A thousand flavors in one place!</p>
       <p>Are you hungry? <br> Don't wait, order a pizza now!</p>
@@ -117,44 +118,44 @@
   <div class="col-xs-4" id="price-content">
     <h1 class="page-header">Cart</h1>
     <h2>Price: Ksh <span id="final-cost"></span></h2>
-    <div class="deliver">
-      <h5>Would you like us to deliver your pizza?</h5>
-      <button id="yes" class="btn btn-dark yes" type="submit">Yes</button>
 
-      <!-- <button id="no" class="btn btn-dark no" type="submit">No</button> -->
-    </div>
+    <br><br>
+
+    <div id="deliver" class="deliver">
+      <h5>Would you like us to deliver your pizza?</h5>
+
+
     <br>
-    <!-- <p>We have received your order. It will be delivered at <span></span></p> -->
 
     <form id="address-form">
       <div class="col-xs-6">
         <label for="first-name"></label>
-        <input id="location" type="text" size="30" placeholder="Enter where you live..." required />
-        <button class="btn btn-dark complete" type="submit">Complete</button>
+        <input id="location" type="text" size="40" placeholder="Enter where you live..." required />
+        <button class="btn btn-dark complete" type="submit">Enter</button>
+        <h3><span id="delivery-option"></span></h3>
       </div>
     </form>
+    </div>
 
-    <br><br>
+    <br>
     <button type="btn" class="btn btn-dark" id="checkout-btn">Checkout</button>
-    <h3><span id="delivery-option"></span></h3>
+    <br><br>
 
     <div id="order-details">
-      <p><a id="pizza-details-dropdown"><strong>Pizza details</strong></a></p>
-      <ul id="pizza-details"><em>Your order is: </em></ul>
-      <p>Thank you and Welcome gain!</p>
+      <!-- <p><a id="pizza-details-dropdown"><strong></strong></a></p> -->
+      <ul id="pizza-details"><strong>Your order is: </strong></ul>
+      <h5 id="pizza-details">Thank you and Welcome gain!</h5>
     </div>
   </div>
 
   </div>
   </div>
 
-
-
   <!-- <div class="footer"> -->
-  <footer id="contact" class="footer" style="font-size: 24px;">
-    <a class="footer-link" href="https://www.linkedin.com/in/saramunini"><i class="fab fa-linkedin fa-1.25x"></i></a>
-    <a class="footer-link" href="https://twitter.com/pixel_tiny"><i class="fab fa-twitter-square fa-1.25x"></i></a>
-    <p class="copyright">© 2019 Pixel </p>
+  <footer id="contact" class="footer" size="240px">
+    <a class="footer-link" href="https://www.linkedin.com/in/saramunini"><i class="fab fa-linkedin"></i></a>
+    <a class="footer-link" href="https://twitter.com/pixel_tiny"><i class="fab fa-twitter-square"></i></a>
+    <p class="copyright">© 2019 The Pizza Peddler </p>
   </footer>
 
 

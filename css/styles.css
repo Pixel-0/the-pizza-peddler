@@ -31,6 +31,8 @@ text-align: center;
 font-family: 'Shadows Into Light Two', cursive;
 font-size: 1.25em;
 font-weight: bold;
+margin-left: 50px;
+margin-right: 50px;
 }
 
 .card{
@@ -62,6 +64,11 @@ h2 {
   text-align: center;
 }
 
-/* #address-form {
-  width: 50%;
-} */
+.footer {
+  text-align: center;
+  font-size: 25px;  
+}
+
+.footer-link {
+  color: #000;
+}
