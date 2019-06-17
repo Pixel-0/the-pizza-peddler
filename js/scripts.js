@@ -90,7 +90,7 @@ $(document).ready(function() {
     var address = $("input#location").val();
     var newAddress = new Address(address);
 
-    $("#delivery-option").text("Deliver to: " + newAddress.deliveryAddress);
+    $("#delivery-option").text("Your pizza will be delivered to: " + newAddress.deliveryAddress);
   });
 
 });
