@@ -60,8 +60,6 @@ $("#deliver").hide();
     return cartTotalPrice;
   };
 
-
-
   $("form#custom-pizza").submit(function(event) {
       event.preventDefault();
       var size = $("select#size").val();
