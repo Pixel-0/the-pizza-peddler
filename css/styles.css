@@ -7,7 +7,7 @@
   font-size: 5em;
 }
 
-.jumbotron>p {
+.jumbotron>p, .page-header, #price-content>h1 {
   font-family: 'Kaushan Script', cursive;
   font-size: 2em;
 }
