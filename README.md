@@ -29,9 +29,7 @@ The program should... | Example Input | Example Output
 ----- | ----- | -----
 Calculate the price of a custom pizza based on the options selected in the form | Custom Pizza Form: Select size, crust and toppings | Ksh. 780
 Display the total price of the custom pizza in the Cart column, and simultaneously refresh the form | Pizza price displayed on the cart | Cart: Price Ksh. 780
-A link with the item name will appear when an item is added to the Cart | Your order is:
-medium-pizza - cheese-filled - bacon | Your order is:
-medium-pizza - cheese-filled - bacon
+A link with the item name will appear when an item is added to the Cart | Your order is:medium-pizza - cheese-filled - bacon | Your order is:medium-pizza - cheese-filled - bacon
 Details will append in list form under the proper food category in the Cart | medium-pizza - cheese-filled - bacon | medium-pizza - cheese-filled - bacon 
 
 
