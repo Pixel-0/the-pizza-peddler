@@ -30,8 +30,6 @@ Display the total price of the custom pizza in the Cart column, and simultaneous
 Prompt location for delivery |Enter location | Your pizza will be delivered to: Kitengela
 Details will append in list form under the proper food category in the Cart | click on checkout button | medium-pizza - cheese-filled - bacon 
 
->>>>>>> a2e766731d48868e83e455ffe248f6bfdab43499
-
 ## Support and Contact Details
 
 Contact saramunini11@gmail.com for support in running this program.
