@@ -91,6 +91,6 @@ $("#deliver").hide();
       var address = $("input#location").val();
       var newAddress = new Address(address);
 
-      $("#delivery-option").text("Make delivery to: " + newAddress.deliveryAddress);
+      $("#delivery-option").text("Deliver to: " + newAddress.deliveryAddress);
     });
 });
