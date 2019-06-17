@@ -14,7 +14,7 @@ This program can only be accessed on a computer with Git and Atom installed.
 * Open your terminal
 * initialize git (git init)
 * git clone https://github.com/Pixel-0/the-pizza-peddler.git
-* cd delani-studio
+* cd the-pizza-peddler
 * open folder in your preferred IDE
 * proceed to open index.html file using a browser of your choice.
 
