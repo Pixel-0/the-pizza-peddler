@@ -41,10 +41,6 @@ $("#deliver").hide();
       this.pizzaPrice += 150;
     }
 
-    this.pizzaPrice += this.size;
-    this.pizzaPrice += this.crust;
-    this.pizzaPrice += this.toppings;
-    return this.pizzaPrice;
   };
 
   function Address (address) {
